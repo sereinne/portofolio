@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Iosevka+Charon+Mono:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Noto+Naskh+Arabic:wght@400..700&display=swap");
+@import "tailwindcss";
+
+@theme {
+    /* font family */
+    --font-display: "Iosevka Charon Mono", monospace;
+    --font-noto-naskh: "Noto Naskh Arabic", serif;
+}
+
+@plugin "daisyui";
+
+/* ==========================================================================
+   GRUVBOX LIGHT THEME
+   ========================================================================== */
+@plugin "daisyui/theme" {
+    name: "gruvbox-light";
+    default: false;
+    prefersdark: false;
+    color-scheme: light;
+
+    /* font family */
+    --font-iosevka: "Iosevka Charon Mono", monospace;
+    --font-naskh: "Noto Naskh Arabic", serif;
+
+    /* Backgrounds & Text (Hard/Medium Contrast variant) */
+    --color-base-100: #fbf1c7; /* bg0 */
+    --color-base-200: #f2e5bc; /* bg1 */
+    --color-base-300: #ebdbb2; /* bg2 */
+    --color-base-content: #282828; /* fg0 */
+
+    /* Core Accents */
+    --color-primary: #b57614; /* yellow / gold */
+    --color-primary-content: #fbf1c7;
+
+    --color-secondary: #af3a03; /* orange */
+    --color-secondary-content: #fbf1c7;
+
+    --color-accent: #427b58; /* green */
+    --color-accent-content: #fbf1c7;
+
+    --color-neutral: #3c3836; /* fg4 / dark grey */
+    --color-neutral-content: #fbf1c7;
+
+    /* System Messaging States */
+    --color-info: #076678; /* blue */
+    --color-info-content: #fbf1c7;
+
+    --color-success: #79740e; /* green alternative */
+    --color-success-content: #fbf1c7;
+
+    --color-warning: #b57614; /* yellow alternative */
+    --color-warning-content: #fbf1c7;
+
+    --color-error: #9d0006; /* red */
+    --color-error-content: #fbf1c7;
+
+    /* UI Variables Matching Your Minimal Layout */
+    --radius-selector: 0.5rem;
+    --radius-field: 0.25rem;
+    --radius-box: 0.375rem;
+    --size-selector: 0.25rem;
+    --size-field: 0.25rem;
+    --border: 1px;
+    --depth: 1;
+    --noise: 0;
+}
+
+/* ==========================================================================
+   GRUVBOX DARK THEME
+   ========================================================================== */
+@plugin "daisyui/theme" {
+    name: "gruvbox-dark";
+    default: true;
+    prefersdark: true;
+    color-scheme: dark;
+
+    /* font family */
+    --font-iosevka: "Iosevka Charon Mono", monospace;
+    --font-naskh: "Noto Naskh Arabic", serif;
+
+    /* Backgrounds & Text */
+    --color-base-100: #282828; /* bg0 */
+    --color-base-200: #3c3836; /* bg1 */
+    --color-base-300: #504945; /* bg2 */
+    --color-base-content: #fbf1c7; /* fg0 */
+
+    /* Core Accents */
+    --color-primary: #fabd2f; /* yellow */
+    --color-primary-content: #282828;
+
+    --color-secondary: #fe8019; /* orange */
+    --color-secondary-content: #282828;
+
+    --color-accent: #8ec07c; /* aqua */
+    --color-accent-content: #282828;
+
+    --color-neutral: #928374; /* gray */
+    --color-neutral-content: #282828;
+
+    /* System Messaging States */
+    --color-info: #83a598; /* blue */
+    --color-info-content: #282828;
+
+    --color-success: #b8bb26; /* green */
+    --color-success-content: #282828;
+
+    --color-warning: #fabd2f; /* yellow alternative */
+    --color-warning-content: #282828;
+
+    --color-error: #fb4934; /* red */
+    --color-error-content: #282828;
+
+    /* UI Variables Matching Your Minimal Layout */
+    --radius-selector: 0.5rem;
+    --radius-field: 0.25rem;
+    --radius-box: 0.375rem;
+    --size-selector: 0.25rem;
+    --size-field: 0.25rem;
+    --border: 1px;
+    --depth: 1;
+    --noise: 0;
+}

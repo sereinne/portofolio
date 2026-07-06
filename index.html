@@ -1,0 +1,351 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Muhammad Akbar Ilman Setijadi</title>
+    </head>
+    <body>
+        <div id="app" class="h-screen">
+            <div class="theme-btn-switcher sticky top-0 p-2 flex justify-end">
+                <label class="swap swap-rotate">
+                    <!-- this hidden checkbox controls the state -->
+                    <input
+                        type="checkbox"
+                        class="theme-controller"
+                        value="gruvbox-light"
+                    />
+
+                    <!-- sun icon -->
+                    <svg
+                        class="swap-off h-10 w-10 fill-neutral"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                    >
+                        <path
+                            d="M5.64,17l-.71.71a1,1,0,0,0,0,1.41,1,1,0,0,0,1.41,0l.71-.71A1,1,0,0,0,5.64,17ZM5,12a1,1,0,0,0-1-1H3a1,1,0,0,0,0,2H4A1,1,0,0,0,5,12Zm7-7a1,1,0,0,0,1-1V3a1,1,0,0,0-2,0V4A1,1,0,0,0,12,5ZM5.64,7.05a1,1,0,0,0,.7.29,1,1,0,0,0,.71-.29,1,1,0,0,0,0-1.41l-.71-.71A1,1,0,0,0,4.93,6.34Zm12,.29a1,1,0,0,0,.7-.29l.71-.71a1,1,0,1,0-1.41-1.41L17,5.64a1,1,0,0,0,0,1.41A1,1,0,0,0,17.66,7.34ZM21,11H20a1,1,0,0,0,0,2h1a1,1,0,0,0,0-2Zm-9,8a1,1,0,0,0-1,1v1a1,1,0,0,0,2,0V20A1,1,0,0,0,12,19ZM18.36,17A1,1,0,0,0,17,18.36l.71.71a1,1,0,0,0,1.41,0,1,1,0,0,0,0-1.41ZM12,6.5A5.5,5.5,0,1,0,17.5,12,5.51,5.51,0,0,0,12,6.5Zm0,9A3.5,3.5,0,1,1,15.5,12,3.5,3.5,0,0,1,12,15.5Z"
+                        />
+                    </svg>
+
+                    <!-- moon icon -->
+                    <svg
+                        class="swap-on h-10 w-10 fill-neutral"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                    >
+                        <path
+                            d="M21.64,13a1,1,0,0,0-1.05-.14,8.05,8.05,0,0,1-3.37.73A8.15,8.15,0,0,1,9.08,5.49a8.59,8.59,0,0,1,.25-2A1,1,0,0,0,8,2.36,10.14,10.14,0,1,0,22,14.05,1,1,0,0,0,21.64,13Zm-9.5,6.69A8.14,8.14,0,0,1,7.08,5.22v.27A10.15,10.15,0,0,0,17.22,15.63a9.79,9.79,0,0,0,2.1-.22A8.11,8.11,0,0,1,12.14,19.73Z"
+                        />
+                    </svg>
+                </label>
+            </div>
+            <main
+                class="flex flex-col justify-center items-center h-full gap-y-3"
+            >
+                <h1
+                    class="caligraphy font-noto-naskh text-primary text-8xl"
+                    lang="rtl"
+                >
+                    بري
+                </h1>
+                <p
+                    class="name text-success font-normal lg:text-5xl text-3xl mt-8 font-display"
+                >
+                    Muhammad Akbar Ilman Setijadi
+                </p>
+                <p
+                    class="short-description text-neutral font-normal font-display lg:text-2xl text-lg text-center"
+                >
+                    “Information Systems undergraduate with interest in backend
+                    engineering”
+                </p>
+                <div class="buttons flex gap-x-3 font-display text-lg">
+                    <button
+                        class="btn btn-soft font-iosevka bg-neutral text-base-100 rounded-lg"
+                    >
+                        <a
+                            href="mailto:akbarpersonalmode@gmail.com"
+                            target="_blank"
+                        >
+                            Mail
+                        </a>
+                    </button>
+                    <button
+                        class="btn btn-soft font-iosevka bg-neutral text-base-100 rounded-lg"
+                    >
+                        <a href="https://github.com/sereinne" target="_blank">
+                            Github
+                        </a>
+                    </button>
+                    <button
+                        class="btn btn-soft font-iosevka bg-neutral text-base-100 rounded-lg"
+                    >
+                        <a
+                            href="https://linkedin.com/akbarilmnn"
+                            target="_blank"
+                        >
+                            LinkedIn
+                        </a>
+                    </button>
+                    <button
+                        class="btn btn-soft font-iosevka bg-neutral text-base-100 rounded-lg"
+                    >
+                        <a
+                            href="https://instagram.com/akbarilmnn"
+                            target="_blank"
+                        >
+                            Instagram
+                        </a>
+                    </button>
+                </div>
+                <div
+                    class="portofolio font-display mt-8 grid lg:grid-cols-4 grid-cols-1 items-start gap-y-8 gap-x-12 w-full max-w-6xl mx-auto px-4"
+                >
+                    <div class="projects flex flex-col min-w-0">
+                        <div class="projects-header flex gap-x-1.5">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="36"
+                                height="36"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                            >
+                                <path
+                                    d="M16.0694 9.95182C17.3989 9.95177 18.5317 9.95172 19.436 10.054C19.5895 10.0714 19.7425 10.0923 19.8943 10.1178C20.4264 10.2071 20.9447 10.3533 21.4242 10.6063V9.75579C21.4242 8.84687 21.4243 8.09279 21.3389 7.49156C21.2489 6.85704 21.0526 6.29458 20.5834 5.83245C20.5069 5.75707 20.4261 5.68552 20.3415 5.61807C19.8297 5.21023 19.2162 5.04345 18.5217 4.96608C17.8526 4.89155 17.0097 4.89157 15.9765 4.89158H15.6237C14.6416 4.89158 14.2895 4.88587 13.9706 4.80533C13.7833 4.75802 13.6035 4.69195 13.4348 4.60878C13.1505 4.46867 12.9028 4.25761 12.2072 3.64132L11.7331 3.22128C11.5341 3.04489 11.3982 2.9245 11.2526 2.81755C10.6279 2.35879 9.86731 2.08132 9.07097 2.01534C8.88554 1.99998 8.69631 1.99999 8.41307 2.00002L8.29665 2.00001C7.65598 1.9999 7.23316 1.99983 6.86603 2.0612C5.26118 2.32947 3.96343 3.45143 3.64734 4.93575C3.57542 5.27344 3.57553 5.66035 3.5757 6.21853L3.57572 10.6063C4.05522 10.3533 4.57356 10.2071 5.10559 10.1178C5.25745 10.0923 5.41042 10.0714 5.56393 10.054C6.46821 9.95172 7.60106 9.95177 8.93054 9.95182H16.0694Z"
+                                    class="fill-info"
+                                />
+                                <path
+                                    fill-rule="evenodd"
+                                    clip-rule="evenodd"
+                                    d="M3.35791 12.7788C2.74772 13.7202 2.99956 15.0292 3.50323 17.6471C3.8658 19.5317 4.04709 20.474 4.67523 21.0993C4.8382 21.2615 5.02054 21.4053 5.2186 21.5278C5.98195 22 6.99539 22 9.02227 22H15.9777C18.0046 22 19.0181 22 19.7814 21.5278C19.9795 21.4053 20.1618 21.2615 20.3248 21.0993C20.9529 20.474 21.1342 19.5317 21.4968 17.6471C22.0004 15.0292 22.2523 13.7202 21.6421 12.7788C21.4864 12.5386 21.2943 12.3211 21.0721 12.1334C20.2011 11.3976 18.7933 11.3976 15.9777 11.3976H9.02227C6.20667 11.3976 4.79888 11.3976 3.92792 12.1334C3.70566 12.3211 3.51363 12.5386 3.35791 12.7788ZM9.69518 17.1807C9.69518 16.7815 10.0376 16.4578 10.4601 16.4578H14.5398C14.9622 16.4578 15.3047 16.7815 15.3047 17.1807C15.3047 17.58 14.9622 17.9036 14.5398 17.9036H10.4601C10.0376 17.9036 9.69518 17.58 9.69518 17.1807Z"
+                                    class="fill-info"
+                                />
+                            </svg>
+                            <h2 class="text-info text-2xl">Projects</h2>
+                        </div>
+                        <div class="project-details flex flex-col gap-y-2 mt-5">
+                            <div class="project-detail flex">
+                                <div class="project-desc flex flex-col gap-y-1">
+                                    <div
+                                        class="project-header flex items-center gap-x-2"
+                                    >
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            class="max-h-6"
+                                            viewBox="0 0 24 24"
+                                            fill="none"
+                                        >
+                                            <path
+                                                d="M10.0464 14C8.54044 12.4882 8.67609 9.90087 10.3494 8.22108L15.197 3.35462C16.8703 1.67483 19.4476 1.53865 20.9536 3.05046C22.4596 4.56228 22.3239 7.14956 20.6506 8.82935L18.2268 11.2626"
+                                                class="stroke-info stroke-2"
+                                            />
+                                            <path
+                                                d="M13.9536 10C15.4596 11.5118 15.3239 14.0991 13.6506 15.7789L11.2268 18.2121L8.80299 20.6454C7.12969 22.3252 4.55237 22.4613 3.0464 20.9495C1.54043 19.4377 1.67609 16.8504 3.34939 15.1706L5.77323 12.7373"
+                                                class="stroke-info stroke-2"
+                                            />
+                                        </svg>
+
+                                        <h3 class="text-info text-xl">
+                                            <a
+                                                href="https://github.com/sereinne/shqlite"
+                                                target="_blank"
+                                            >
+                                                Shqlite
+                                            </a>
+                                        </h3>
+                                    </div>
+                                    <p>A simple TUI sqlite client in Rust</p>
+                                </div>
+                            </div>
+                            <div class="project-detail flex">
+                                <div class="project-desc flex flex-col gap-y-1">
+                                    <div
+                                        class="project-header flex items-center gap-x-2"
+                                    >
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            class="max-h-6"
+                                            viewBox="0 0 24 24"
+                                            fill="none"
+                                        >
+                                            <path
+                                                d="M10.0464 14C8.54044 12.4882 8.67609 9.90087 10.3494 8.22108L15.197 3.35462C16.8703 1.67483 19.4476 1.53865 20.9536 3.05046C22.4596 4.56228 22.3239 7.14956 20.6506 8.82935L18.2268 11.2626"
+                                                class="stroke-info stroke-2"
+                                            />
+                                            <path
+                                                d="M13.9536 10C15.4596 11.5118 15.3239 14.0991 13.6506 15.7789L11.2268 18.2121L8.80299 20.6454C7.12969 22.3252 4.55237 22.4613 3.0464 20.9495C1.54043 19.4377 1.67609 16.8504 3.34939 15.1706L5.77323 12.7373"
+                                                class="stroke-info stroke-2"
+                                            />
+                                        </svg>
+
+                                        <h3 class="text-info text-xl">
+                                            <a
+                                                href="https://github.com/sereinne/gummypy"
+                                                target="_blank"
+                                            >
+                                                Gummypy
+                                            </a>
+                                        </h3>
+                                    </div>
+                                    <p>
+                                        A simple library that contains wrapper
+                                        functions for gum CLI tool
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="organizations flex flex-col min-w-0">
+                        <div class="organizations-header flex gap-x-1.5">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="36"
+                                height="36"
+                                viewBox="0 0 24 24"
+                            >
+                                <path
+                                    d="M15.8513 11.6882C16.0596 11.7921 16.372 11.7921 16.6845 11.7921C18.5591 11.7921 20.1213 10.2336 20.1213 8.36351C20.1213 6.49338 18.5591 4.93494 16.6845 4.93494C16.5803 4.93494 16.5803 4.93494 16.4762 4.93494C17.1011 5.76611 17.4135 6.80507 17.4135 7.94793C17.4135 9.29857 16.8928 10.6492 15.8513 11.6882Z"
+                                    class="fill-info"
+                                />
+                                <path
+                                    d="M18.0383 13.1429H17.3093C18.6632 14.1818 19.4964 15.8442 19.4964 17.7143C19.4964 18.1299 19.3922 18.5455 19.2881 18.961C20.3295 18.7533 20.9544 18.5455 21.371 18.3377C21.7876 18.1299 21.9959 17.6104 21.9959 17.0909C22.1 14.9091 20.2254 13.1429 18.0383 13.1429Z"
+                                    class="fill-info"
+                                />
+                                <path
+                                    d="M7.31142 11.7922C7.62386 11.7922 7.83215 11.7922 8.14458 11.6883C7.20728 10.6494 6.58241 9.40261 6.58241 7.84417C6.58241 6.70131 6.89484 5.66235 7.51971 4.83118C7.51971 4.83118 7.41557 4.83118 7.31142 4.83118C5.43681 4.83118 3.87463 6.38963 3.87463 8.25976C3.87463 10.1299 5.33267 11.7922 7.31142 11.7922Z"
+                                    class="fill-info"
+                                />
+                                <path
+                                    d="M6.58238 13.1429H5.95751C3.77047 13.1429 2 14.9091 2 17.0909C2 17.6104 2.20829 18.1299 2.62487 18.3377C3.04145 18.5455 3.66632 18.8571 4.70777 18.961C4.60363 18.5455 4.49948 18.1299 4.49948 17.7143C4.49948 15.9481 5.2285 14.2857 6.58238 13.1429Z"
+                                    class="fill-info"
+                                />
+                                <path
+                                    d="M9.60264 10.8571C10.2275 11.3766 11.0607 11.6883 11.998 11.6883C12.9353 11.6883 13.7684 11.3766 14.3933 10.8571C15.3306 10.1298 15.8513 9.09085 15.8513 7.8441C15.8513 6.90904 15.5389 5.97397 14.914 5.35059C14.185 4.51942 13.1436 3.99994 11.998 3.99994C10.8524 3.99994 9.70679 4.51942 9.08192 5.35059C8.45705 5.97397 8.04047 6.90904 8.04047 7.8441C8.04047 9.09085 8.66534 10.1298 9.60264 10.8571Z"
+                                    class="fill-info"
+                                />
+                                <path
+                                    d="M14.0807 13.3506C13.8724 13.3506 13.6642 13.3506 13.4559 13.3506H10.3315C10.1232 13.3506 9.91493 13.3506 9.70664 13.3506C7.51959 13.6623 5.85327 15.5324 5.85327 17.7142C5.85327 18.3376 6.16571 18.8571 6.58229 19.0649C7.3113 19.4805 8.76933 20 11.7895 20C14.8097 20 16.2678 19.4805 16.9968 19.0649C17.5175 18.7532 17.7258 18.2337 17.7258 17.7142C18.0382 15.5324 16.2678 13.6623 14.0807 13.3506Z"
+                                    class="fill-info"
+                                />
+                            </svg>
+                            <h2 class="text-info text-2xl">Organizations</h2>
+                        </div>
+                        <div
+                            class="organizations-details flex flex-col gap-y-2 mt-5"
+                        >
+                            <div class="organization-detail flex">
+                                <div
+                                    class="organization-desc flex flex-col gap-y-1"
+                                >
+                                    <div
+                                        class="organization-header flex items-center gap-x-2"
+                                    >
+                                        <img
+                                            src="/src/assets/ise-black-white.png"
+                                            class="max-h-8 rounded-md"
+                                        />
+                                        <h3 class="text-info text-xl">
+                                            ISE! 2026
+                                        </h3>
+                                    </div>
+                                    <p>BE Expert Staff in IT DEV division</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contributions flex flex-col min-w-0">
+                        <div class="contributions-header flex gap-x-1.5">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="36"
+                                height="36"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                            >
+                                <path
+                                    d="M6.75 7.875C8.19975 7.875 9.375 6.69975 9.375 5.25C9.375 3.80025 8.19975 2.625 6.75 2.625C5.30025 2.625 4.125 3.80025 4.125 5.25C4.125 6.69975 5.30025 7.875 6.75 7.875Z"
+                                    class="stroke-info stroke-2"
+                                />
+                                <path
+                                    d="M6.75 21.375C8.19975 21.375 9.375 20.1997 9.375 18.75C9.375 17.3003 8.19975 16.125 6.75 16.125C5.30025 16.125 4.125 17.3003 4.125 18.75C4.125 20.1997 5.30025 21.375 6.75 21.375Z"
+                                    class="stroke-info stroke-2"
+                                />
+                                <path
+                                    d="M18.75 15.375C20.1997 15.375 21.375 14.1997 21.375 12.75C21.375 11.3003 20.1997 10.125 18.75 10.125C17.3003 10.125 16.125 11.3003 16.125 12.75C16.125 14.1997 17.3003 15.375 18.75 15.375Z"
+                                    class="stroke-info stroke-2"
+                                />
+                                <path
+                                    d="M7.125 15.375V8.625C8.625 11.625 10.125 13.125 15.375 13.125"
+                                    class="stroke-info stroke-2"
+                                />
+                            </svg>
+                            <h2 class="text-info text-2xl">Contributions</h2>
+                        </div>
+                        <div
+                            class="contribution-details flex flex-col gap-y-2 mt-5"
+                        >
+                            <div class="contribution-detail flex">
+                                <div
+                                    class="contribution-desc flex flex-col gap-y-1"
+                                >
+                                    <div
+                                        class="organization-header flex items-center gap-x-2"
+                                    >
+                                        <img
+                                            src="/src/assets/raycast.svg"
+                                            class="max-h-8 rounded-md"
+                                        />
+                                        <h3 class="text-info text-xl">
+                                            First Extension in Raycast
+                                        </h3>
+                                    </div>
+                                    <p>
+                                        Published a password manager extension
+                                        in Raycast
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="certifications flex flex-col min-w-0">
+                        <div
+                            class="certifications-header flex items-center gap-x-1.5"
+                        >
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="36"
+                                height="36"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                            >
+                                <g clip-path="url(#clip0_30_8)">
+                                    <path
+                                        class="fill-info"
+                                        d="M11.8 2C11.6 2 11.4 2.1 11.3 2.2L9.9 3.5L8.3 3.2C7.8 3.1 7.5 3.4 7.4 3.8L7.1 5.6L5.4 6.4C5 6.6 4.9 7 5.1 7.4L5.9 9L5.1 10.6C4.9 11 5.1 11.4 5.4 11.6L7.1 12.4L7.4 14.2C7.5 14.6 7.9 14.9 8.3 14.8L10.2 14.5L11.6 15.8C11.9 16.1 12.4 16.1 12.7 15.8L14.1 14.5L16 14.8C16.4 14.9 16.8 14.6 16.9 14.2L17.2 12.4L18.9 11.6C19.3 11.4 19.4 11 19.2 10.6L18.1 9L18.9 7.4C19.1 7 19 6.6 18.6 6.4L16.9 5.6L16.6 3.8C16.5 3.4 16.1 3.1 15.7 3.2L13.8 3.5L12.4 2.2C12.3 2 12 2 11.8 2ZM6.1 13.1L3 19.3L6.6 18.8L8.4 22L11 16.7L10.8 16.5L9.8 15.6L8.4 15.8C7.5 15.9 6.6 15.3 6.4 14.4L6.1 13.1ZM17.9 13.1L17.6 14.4C17.4 15.2 16.7 15.8 15.9 15.8H15.7L14.3 15.6L13.3 16.5L13.1 16.7L15.7 22L17.5 18.9L21.1 19.4L17.9 13.1Z"
+                                    />
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_30_8">
+                                        <rect
+                                            width="24"
+                                            height="24"
+                                            fill="white"
+                                        />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                            <h2 class="text-info text-2xl">Certifications</h2>
+                        </div>
+                    </div>
+                </div>
+            </main>
+            <footer
+                class="font-display text-neutral text-center text-sm py-2 sticky bottom-0"
+            >
+                📍 Jakarta, Indonesia
+            </footer>
+        </div>
+        <script type="module" src="/src/main.ts"></script>
+    </body>
+</html>
